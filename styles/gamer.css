@@ -1,0 +1,457 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+ 
+  
+
+}
+main{
+    max-width: 1300px;
+}
+.gamer{
+
+    font-size: 45px;
+    color:deeppink;
+    font-weight: 700;
+    text-align: center;
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+nav li a{
+    text-decoration: none;
+    color: #3C354F;
+}
+.header_des{
+margin-top: 0;
+}
+.header_title img{
+    width: 86.041px;
+height: 40px;
+}
+.header_title{
+    display: flex;
+    gap: 1.25rem;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding:38px 100px 39px  100px;
+   
+    background: #FFF;
+box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.05);
+
+}
+.nav{
+    display: flex;
+}
+.gamer_nav{
+    display: flex;
+    align-items: center;
+}
+.header_boxshadow{
+    padding-left: 20px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 262px;
+   height: 56px;
+    color: #3C354F;
+    font-weight: 500;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.Play_like_the_goat{
+   
+    background-image: url('../images/Group\ 14.png');
+    padding: 148px 150px 0px 150px;
+
+}
+.play_img img{
+    width: 100%;
+    height: 446px;
+    flex-shrink: 0;
+}
+.play_mdtitle{
+font-weight: 800;
+font-size: 40px;
+margin-top: 0px;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent
+}
+.play{
+    display: flex;
+  justify-content: space-between;
+     
+}
+.btn_primary{
+    margin-top: 30px;
+    border-radius: 48px;
+background:#F948B2;
+padding: 15px 30px;
+color: #FFF;
+border: 0;
+font-weight: 600;
+font-size: 20px;
+}
+.btn_secondary{
+    border-radius: 48px;
+    background: #4EC5F7;
+padding: 15px 30px;
+color: #FFF;
+border: 0;
+font-weight: 600;
+font-size: 20px;
+margin-left: 15px;
+}
+.text-light-gray{
+    text-align: center;
+    color:  #727272;
+    padding-left: 70px;
+}
+.fun-title{
+    padding-left: 70px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    
+}
+.fun{
+    display: flex;
+    gap: 24px;
+    padding:38px 240px ;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .watch {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .two_card{
+    margin-bottom: 0px;
+  }
+  .watch i {
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  .watch p {
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 8px;
+  }
+  .fun p{
+    color: #534C64;
+    font-weight: 500;
+    font-size: 1.25rem
+  }
+  .image-container:hover .watch {
+    opacity: 1;
+  }
+.fun_img img,.image-container img{
+    width: 242px;
+  height: 400px;
+flex-shrink: 0;
+}
+.play_pink{
+    font-weight: 800;
+font-size: 40px;
+margin-top: 0px;
+color: #F948B2;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+    padding: 60px 0px 0px 100px;
+}
+.card_des{
+    font-size: 18px;
+    font-weight: 400;
+  padding-left: 60px;
+
+}
+
+.fun-title{
+    margin-top: 200px;
+    margin-bottom: 0px;
+    text-align:center;
+}
+.big{
+    width: 434.833px;
+height: 550px;
+margin-left: 90px;
+}
+.little{
+    padding-right: 330px;
+    text-align: right;
+    position: relative;
+    bottom: 200px;
+   } 
+  .ltl{
+    width: 200px;
+    height: 250px;
+  }
+ 
+
+
+/* .igm{
+    margin-right: 195px;
+} */
+.button{
+    margin-top: 0px;
+    padding: 126px 0px 50px 150px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    row-gap: 40px;
+ 
+}
+
+.img_button{
+    width: 170px;
+   height: 70px;
+border-radius:50px ;
+border: 2px solid white;
+background: #FFF;
+padding: 5px 150px 5px 10px;
+ }
+ .btn_title{
+    display: flex;
+    gap: 5px;
+ }
+ .img_button:hover{
+    border: 2px solid red;
+    color:blueviolet;
+}
+.footer_title{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  
+}
+footer{
+    padding: 70px 0px 20px 90px;
+    background-color: #3C354F;
+    margin-left: 0px;
+    width: 100%;
+   
+}
+.footer_details{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    color: #FFF;
+    padding-top: 20px;
+text-align: center;
+
+font-size: 18px;
+
+font-weight: 600;
+
+}
+.footer_condition{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    color: rgba(255, 255, 255, 0.60);
+    padding-top: 20px;
+text-align: center;
+font-size: 16px;
+font-weight: 500px;
+}
+.copy{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+
+font-size: 16px;
+
+font-weight: 500;
+
+}
+@media screen  and (max-width:576px){
+   
+    .header,.gamer_nav,.nav,.fun,.card{
+        flex-direction: column;
+    }
+    .play_img img{
+        width: 100%;
+   
+    }
+
+    .play{
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+  
+   .play_details{
+    text-align: center;
+ 
+   }
+   .fun{
+    padding: 20px 0px 20px 80px ;
+    
+       }
+   
+  .btn{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+   } 
+   .btn_primary{
+margin: 10px;
+   }
+    .nav li{
+        padding-bottom: 10px;
+    } 
+    .header_title{
+        padding-left: 10px;
+        display: flex;
+        gap: 10px;
+       
+    }
+    .header_des{
+        margin-top: 0px;
+        }
+        .header{
+            box-shadow: none;
+        }
+        .card{
+            padding: 0px 0px 0px 0px;
+           }   
+           .big{
+            margin-right: 3px;
+            width: 70%;
+        }
+             
+     .igm{
+        height: 30px;
+     } 
+    
+.img_button{
+        width: 0px;
+       height: 40px;
+    border-radius:50px ;
+    border: 2px solid white;
+    background: #FFF;
+   
+     } 
+     .button{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 20px 0px 0px 0px;
+        margin-bottom: 70px;
+    } 
+    .footer_details,.footer_details{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 2px;
+    }
+
+.footer_condition{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    column-gap: 2px;
+}
+.Play_like_the_goat{
+   
+   
+    padding: 148px 0px 0px 50px;
+
+}
+footer{
+    padding: 70px 10px 20px 10px;
+    background-color: #3C354F; 
+}
+.copy{
+    padding: 70px 10px 20px 10px;  
+}
+.img_button:hover{
+    border: 2px solid black;
+}
+} 
+@media screen and (min-width:576px) and (max-width:960px){
+    .header,.gamer_nav,.nav,.fun,.card{
+        flex-direction: column;
+    }
+      .header_title{
+        padding-left: 180px;
+        display: flex;
+        gap: 10px;
+       
+    }
+    
+    .nav{
+        display: flex;
+    }
+    .play{
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+  
+   .play_details{
+    text-align: center;
+ 
+   }
+   .fun{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+   }
+   .card_img{
+    text-align: center;
+   }
+   
+.fun-title{
+    margin-top: 200px;
+    margin-bottom: 0px;
+    text-align:center;
+}
+.big{
+    width: 334.833px;
+height: 400px;
+margin-left: 90px;
+}
+.little{
+    padding-right: 430px;
+    text-align: right;
+    position: relative;
+    bottom: 200px;
+   } 
+  .ltl{
+    width: 200px;
+    height: 250px;
+  }
+ 
+ .button,.footer_details,.footer_condition{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px 0px 0px 0px;
+    margin-bottom: 70px;
+ }
+ .button{
+    padding-left: 90px;
+  }
+ .img_button:hover{
+    border: 2px solid black;
+}
+}
